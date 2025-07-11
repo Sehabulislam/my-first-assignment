@@ -19,7 +19,6 @@ nav{
     font-size: 34px;
     font-weight: bold;
 }
-
 .btn-primary{
     background-color:#4E47FF;
     font-weight:bold;
@@ -28,7 +27,14 @@ nav{
     padding:  12px 36px;
     border: none;
     border-radius: 10px;
+    transition: .5s;
 }
+.btn-primary:hover{
+    background: transparent;
+    color:#1335ce;
+    box-shadow: none;
+}
+
 /* header style*/
 .primary-bg{
     background-image: url("../Assets/Hero-bg.png");
@@ -84,8 +90,7 @@ nav{
     margin: 0 auto;
     padding: 120px 150px ;
     text-align: center;
-    border-radius:25px;
-  
+    border-radius:25px; 
 }
 .fonts{
     color: rgba(0, 0, 0, 0.5);
