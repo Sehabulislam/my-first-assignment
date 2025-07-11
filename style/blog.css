@@ -1,4 +1,6 @@
-
+body{
+    background-color:rgba(245, 248, 255, 1);
+}
 /* font */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -14,14 +16,14 @@ nav{
     margin: 50px 150px;
 }
 .nav-title{
-    font-size: 44px;
+    font-size: 34px;
     font-weight: bold;
 }
 
 .btn-primary{
     background-color:#4E47FF;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     padding:  12px 36px;
     border: none;
@@ -65,14 +67,13 @@ nav{
     display: flex;
     gap: 100px;
     justify-content: center;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
 }
 .achievement{
     font-size: 60px;
     font-weight: bold;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
     color: rgba(78, 71, 255, 1);
     margin-bottom: 100px;
 }
@@ -81,12 +82,45 @@ nav{
     max-width: 1140px;
     height:300px;
     margin: 0 auto;
-    padding: 120px 150px;
+    padding: 120px 150px ;
     text-align: center;
-    border-radius:24px;
+    border-radius:25px;
   
 }
 .fonts{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
+}
+/* form */
+footer{
+    padding: 65px 150px;
+    display: flex;
+    gap:115px;
+ }
+ .form-section,h2{
+    font-size: 97;
+    font-weight: bold;
+}
+ .form-section{
+    width: 50%;
+ }
+ footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 70px;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    padding:0px 20px 20px;
+    box-shadow:rgba(255, 255, 255, 1) ;
+}
+.btn-secondary{
+   width: 106%;
+   max-height: 70px;
+}
+.fine{
+font-size: 97px;
+font-weight: bold;
 }
